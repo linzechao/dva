@@ -1,15 +1,11 @@
 {
-<<<<<<< HEAD
   // 预加载 ant mobile
-=======
->>>>>>> 8277982a6f8d299627b586d7d606574dbafc55e0
   "extraBabelPlugins": [
     ["import", {
       "libraryName": "antd-mobile",
       "libraryDirectory": "es",
       "style": true
     }]
-<<<<<<< HEAD
   ],
   "env": {
     // 开发环境
@@ -35,7 +31,4 @@
     "$": "./src/utils/",
     "@": "./src/components/"
   }
-=======
-  ]
->>>>>>> 8277982a6f8d299627b586d7d606574dbafc55e0
 }
