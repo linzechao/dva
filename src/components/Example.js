@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Example = () => {
   return (
@@ -6,9 +6,9 @@ const Example = () => {
       Example
     </div>
   );
-};
+}
 
 Example.propTypes = {
-};
+}
 
-export default Example;
+export default Example
