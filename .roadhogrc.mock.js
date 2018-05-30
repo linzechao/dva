@@ -1,4 +1,5 @@
 export default {
+<<<<<<< HEAD
   'GET /api/users': { users: [{ username: 'Super' }] },
 
   'GET /api/learn/log': [
@@ -7,4 +8,6 @@ export default {
     {name: '软件使用', status: 1, date: '2018-01-01 14:00'},
     {name: '材料知识', status: 0, date: '2018-01-15 16:00'}
   ]
+=======
+>>>>>>> 8277982a6f8d299627b586d7d606574dbafc55e0
 }
