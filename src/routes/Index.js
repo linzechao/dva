@@ -3,7 +3,7 @@ import { connect } from 'dva'
 
 import { Link } from 'dva/router'
 
-import { NavBar, Icon, Button, Modal, Switch, List, WhiteSpace } from 'antd-mobile'
+import { NavBar, Button, Modal, Switch, List, WhiteSpace } from 'antd-mobile'
 
 const Item = List.Item
 const Brief = Item.Brief
@@ -25,10 +25,7 @@ function IndexPage() {
 
   return (
     <section>
-      <NavBar
-        mode="light"
-        icon={<Icon type="left" />}
-        >welcome here</NavBar>
+      <NavBar mode="light">welcome here</NavBar>
 
       <List>
         <Item
@@ -49,11 +46,11 @@ function IndexPage() {
           thumb="https://zos.alipayobjects.com/rmsportal/dNuvNrtqUztHCwM.png"
           multipleLine
           onClick={() => {}}>
-          <Link to="/learn/log">LEARN <Brief>LOG</Brief></Link>
+          <Link to="/learnLog">LEARN <Brief>LOG</Brief></Link>
         </Item>
 
         <Item arrow="horizontal" multipleLine onClick={() => {}}>
-          <Link to="/learn">LEARN <Brief>INDEX</Brief></Link>
+          LEARN <Brief>INDEX</Brief>
         </Item>
       </List>
 

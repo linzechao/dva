@@ -1,14 +1,11 @@
 import React from 'react'
-import { Router, Route, Switch, IndexRoute } from 'dva/router'
-
-import Parent from './components/parent'
+import { Router, Route, Switch } from 'dva/router'
 
 import Index from './routes'
 import Login from './routes/login'
 
 import User from './routes/user'
 
-import Learn from './routes/learn'
 import LearnLog from './routes/learn/log'
 
 function RouterConfig({ history }) {
@@ -20,9 +17,7 @@ function RouterConfig({ history }) {
 
         <Route path="/user" exact component={User} />
 
-        <Route path="/learn" exact component={Parent}>
-          <Route path="log" component={LearnLog} />
-        </Route>
+        <Route path="/learnLog" exact component={LearnLog} />
       </Switch>
     </Router>
   )

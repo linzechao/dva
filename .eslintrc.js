@@ -7,10 +7,7 @@ module.exports = {
     browser: true,
   },
   extends: [
-    // dva 只带了这货
-    // 加了 .js 后缀
-    "umi",
-
+    'umi',
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
     // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
     'plugin:vue/essential', 
